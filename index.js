@@ -12,4 +12,7 @@ var removeElement = function(nums, val) {
             nums[j]= nums[i]
           j++  
         }
-
+ }
+    return  j
+    
+};
