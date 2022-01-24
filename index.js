@@ -4,7 +4,7 @@
 
 
 
-
+// remove element from array
 var removeElement = function(nums, val) {
     let j = 0;
 
