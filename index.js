@@ -45,3 +45,6 @@ function compareTriplets(a, b) {
 }
 }
 console.log(compareTriplets([1, 2, 3], [2, 2, 1]));
+
+// convert array of strings into array of numbers
+
