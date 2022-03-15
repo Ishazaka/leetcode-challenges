@@ -53,3 +53,5 @@ function toNumberArray(arr) {
  let x = arr.map( i => Number(i) )
   return x
 }
+console.log(toNumberArray(["9.4", "4.2"])) 
+  // result➞ [9.4, 4.2]
