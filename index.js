@@ -56,3 +56,4 @@ function toNumberArray(arr) {
 }
 console.log(toNumberArray(["9.4", "4.2"])) 
   // result➞ [9.4, 4.2]
+
