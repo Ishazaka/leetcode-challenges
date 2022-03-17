@@ -68,3 +68,7 @@ function tuckIn(arr1, arr2) {
 	arr2.unshift(arr1[0]);
 	return arr2;
 }
+// second method
+function tuckIn(arr1, arr2) {
+	return [arr1[0], ...arr2 , arr1[1]]
+}
