@@ -72,3 +72,11 @@ function tuckIn(arr1, arr2) {
 function tuckIn(arr1, arr2) {
 	return [arr1[0], ...arr2 , arr1[1]]
 }
+
+
+// Fizz Buzz
+////////////////////////////////
+
+for(let i = 0; i <= 100; i++){
+ if(i % 3 == 0 && i % 5 == 0){
+   console.log("FizzBuzz");
