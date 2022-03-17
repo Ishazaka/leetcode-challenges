@@ -57,3 +57,6 @@ function toNumberArray(arr) {
 console.log(toNumberArray(["9.4", "4.2"])) 
   // result➞ [9.4, 4.2]
 
+
+// Create a function that takes two arrays and insert the second array in the middle of the first array.
+
