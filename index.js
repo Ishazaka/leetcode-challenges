@@ -109,3 +109,8 @@ console.log(plantee);
 
 wolfy[3] = "Gotham City";
 console.log(wolfy);
+
+//  Give D'Art a second hometown by adding "Hawkins"
+
+dart.push("Hawkins");
+console.log(dart);
