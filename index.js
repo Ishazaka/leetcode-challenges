@@ -95,3 +95,7 @@ for(let i = 0; i <= 100; i++){
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
+
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
