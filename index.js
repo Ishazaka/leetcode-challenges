@@ -116,3 +116,7 @@ dart.push("Hawkins");
 console.log(dart);
 
 // Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
+
+ const deletenum = wolfy.splice(0,1);
+ const add = wolfy.unshift("gameboy");
+console.log(wolfy);
