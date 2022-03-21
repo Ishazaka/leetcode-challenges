@@ -126,3 +126,5 @@ console.log(wolfy);
 
 
 var kittentalking = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+
+function getrandom(arr){
