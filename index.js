@@ -120,3 +120,6 @@ console.log(dart);
  const deletenum = wolfy.splice(0,1);
  const add = wolfy.unshift("gameboy");
 console.log(wolfy);
+
+
+// For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
