@@ -132,3 +132,9 @@ function getrandom(arr){
 for (let i = 0; i <=20; i++){
   if(i % 2 == 0){
     let randomarr = Math.floor(Math.random()*arr.length);
+    return arr[randomarr]
+  }
+}
+
+}
+console.log(getrandom(kittentalking)) ;
