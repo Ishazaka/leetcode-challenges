@@ -141,3 +141,8 @@ console.log(getrandom(kittentalking)) ;
 
 
 // in leetcode we dont have to use build-in functions  
+
+var plusOne = function(digits) {
+    
+   let x = digits.join('');
+    let y = Number(x)+ 1 ;
