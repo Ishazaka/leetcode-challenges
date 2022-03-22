@@ -146,3 +146,9 @@ var plusOne = function(digits) {
     
    let x = digits.join('');
     let y = Number(x)+ 1 ;
+
+      let z = y.toString().split('')
+    return z;
+
+};
+	
