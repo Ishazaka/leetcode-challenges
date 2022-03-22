@@ -139,3 +139,5 @@ for (let i = 0; i <=20; i++){
 }
 console.log(getrandom(kittentalking)) ;
 
+
+// in leetcode we dont have to use build-in functions  
