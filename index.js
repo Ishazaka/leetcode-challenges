@@ -22,11 +22,14 @@ function arrEleSum(args) {
 return fullarr;
 }
 	
+
+console.log(arrEleSum([1, 2, 3, 2, 1]))
 	
 	
 	
 	
-	
+
+
 	
 
 
