@@ -15,7 +15,8 @@ function arrEleSum(args) {
      let sum = 0;
    for(let j = 0; j< len; j++){  
       if(i!=j)	
-	
+        sum += args[j]; 
+    }	
 	
 	
 
