@@ -3,6 +3,9 @@
   // palendrome means it is same when reverse means (lol)  
 
 
+// // sum the elements of the array except itself
+// // arrEleSum([1, 2, 3, 2, 1]) ➞ [8, 7, 6, 7, 8]
+
 
 
 
