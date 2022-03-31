@@ -6,6 +6,10 @@
 // // sum the elements of the array except itself
 // // arrEleSum([1, 2, 3, 2, 1]) ➞ [8, 7, 6, 7, 8]
 
+function arrEleSum(args) {
+  let fullarr = []
+ let len = args.length;
+
 
 
 
