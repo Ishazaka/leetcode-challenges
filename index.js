@@ -17,7 +17,8 @@ function arrEleSum(args) {
       if(i!=j)	
         sum += args[j]; 
     }	
-	
+   fullarr.push(sum);
+  }	
 	
 
 
