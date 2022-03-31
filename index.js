@@ -19,6 +19,14 @@ function arrEleSum(args) {
     }	
    fullarr.push(sum);
   }	
+return fullarr;
+}
+	
+	
+	
+	
+	
+	
 	
 
 
