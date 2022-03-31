@@ -10,7 +10,13 @@ function arrEleSum(args) {
   let fullarr = []
  let len = args.length;
 
-
+  
+  for(let i =0; i< len; i++){
+     let sum = 0;
+	
+	
+	
+	
 
 
 // remove element from array
