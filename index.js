@@ -1,10 +1,12 @@
 
-// check whether string  is palindrome 
-  // palendrome means it is same when reverse means (lol)  
+1--  // check whether string  is palindrome 
+   // palendrome means it is same when reverse means (lol)  
 
 
-// // sum the elements of the array except itself
-// // arrEleSum([1, 2, 3, 2, 1]) ➞ [8, 7, 6, 7, 8]
+
+
+2--  // // sum the elements of the array except itself
+  // // arrEleSum([1, 2, 3, 2, 1]) ➞ [8, 7, 6, 7, 8]
 
 function arrEleSum(args) {
   let fullarr = []
@@ -25,7 +27,9 @@ return fullarr;
 
 console.log(arrEleSum([1, 2, 3, 2, 1]))
 	
-	
+
+3-- // //find how many times element is present in ... 
+
 	
 	
 
