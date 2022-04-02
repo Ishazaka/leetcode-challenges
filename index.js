@@ -29,7 +29,7 @@ console.log(arrEleSum([1, 2, 3, 2, 1]))
 	
 
 3-- // //find how many times element is present in ... 
-
+  // charCount("a", "edabit") ➞ 1
 	
 	
 
