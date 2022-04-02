@@ -37,7 +37,10 @@ function charCount(myChar, str) {
   return newarr.filter( x => 	x == myChar).length
 
 }	
-	
+
+console.log(charCount("a", "edabit") );
+console.log(charCount("a", "Chambaer of a seacrets") );
+console.log(charCount("a", "edabait") );
 	
 	
 
@@ -63,7 +66,8 @@ var removeElement = function(nums, val) {
  console.log(removeElement([0,1,2,2,3,0,4,2],  2) )
 
 
-// compare the triplets
+
+5--  // compare the triplets
 
  var ap = [3, 5, 2];
  var bp = [2, 5, 4];
@@ -85,7 +89,9 @@ function compareTriplets(a, b) {
 }
 console.log(compareTriplets([1, 2, 3], [2, 2, 1]));
 
-// convert array of strings into array of numbers
+
+
+6--  // convert array of strings into array of numbers
 
 
 function toNumberArray(arr) {
@@ -96,7 +102,8 @@ console.log(toNumberArray(["9.4", "4.2"]))
   // result➞ [9.4, 4.2]
 
 
-// Create a function that takes two arrays and insert the second array in the middle of the first array.
+
+7-- // Create a function that takes two arrays and insert the second array in the middle of the first array.
 // example => tuckIn([15,150], [45, 75, 35]) ➞ [15, 45, 75, 35, 150]
 // example => tuckIn([[1, 2], [5, 6]], [[3, 4]]) ➞ [[1, 2], [3, 4], [5, 6]]
 
@@ -112,7 +119,7 @@ function tuckIn(arr1, arr2) {
 }
 
 
-// Fizz Buzz
+8--  // Fizz Buzz
 ////////////////////////////////
 
 for(let i = 0; i <= 100; i++){
@@ -130,8 +137,7 @@ for(let i = 0; i <= 100; i++){
 
 	 
 
-////////////////////////////////
-// Wild Wild Life
+9--  // Wild Wild Life
 ////////////////////////////////
 
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
@@ -160,7 +166,7 @@ console.log(dart);
 console.log(wolfy);
 
 
-// For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+10--  // For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 
 
 var kittentalking = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
@@ -178,7 +184,8 @@ for (let i = 0; i <=20; i++){
 console.log(getrandom(kittentalking)) ;
 
 
-// in leetcode we dont have to use build-in functions  
+
+11--  // in leetcode we dont have to use build-in functions  
 
 var plusOne = function(digits) {
     
