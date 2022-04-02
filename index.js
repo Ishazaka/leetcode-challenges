@@ -33,7 +33,11 @@ console.log(arrEleSum([1, 2, 3, 2, 1]))
 	
 function charCount(myChar, str) {
     let newarr = str.split('');
-
+ // return newarr;
+	
+	
+	
+	
 
 	
 
