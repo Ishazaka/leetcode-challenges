@@ -203,3 +203,6 @@ console.log( plusOne([1,2,3]));
 // //result = [1,2,4]
 	
 
+12--  // which two elements make the target  
+// Input: nums = [2,7,11,15], target = 9
+// Output: [0,1]
