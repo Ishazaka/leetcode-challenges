@@ -206,3 +206,5 @@ console.log( plusOne([1,2,3]));
 12--  // which two elements make the target  
 // Input: nums = [2,7,11,15], target = 9
 // Output: [0,1]
+
+var twoSum = function(nums, target) {
