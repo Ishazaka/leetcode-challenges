@@ -186,6 +186,8 @@ console.log(getrandom(kittentalking)) ;
 
 
 11--  // in leetcode we dont have to use build-in functions  
+// // digits = [1,2,3]
+// //result = [1,2,4]
 
 var plusOne = function(digits) {
     
