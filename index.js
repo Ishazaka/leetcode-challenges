@@ -204,6 +204,7 @@ console.log( plusOne([1,2,3]));
 
 var plusOne = function(digits) {
 
+for(let i=digits.length-1; i>0; i--) {
 
 	
 	
