@@ -184,9 +184,8 @@ for (let i = 0; i <=20; i++){
 console.log(getrandom(kittentalking)) ;
 
 
-
-11--  // in leetcode we dont have to use build-in functions  
-// // digits = [1,2,3]
+ 
+11-- // // digits = [1,2,3]
 // //result = [1,2,4]
 
 var plusOne = function(digits) {
@@ -201,6 +200,19 @@ var plusOne = function(digits) {
 
 console.log( plusOne([1,2,3]));
 
+11-a)  // in leetcode we dont have to use build-in functions  
+
+var plusOne = function(digits) {
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 
 12--  // which two elements make the target  
