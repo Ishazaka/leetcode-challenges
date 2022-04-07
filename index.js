@@ -210,7 +210,7 @@ for(let i=digits.length-1; i>0; i--) {
     digits[i] =  digits[i] +1;	
   return digits	
   }else{
-	
+  digits[i] = 0;	
 	
 	
 	
