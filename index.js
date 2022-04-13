@@ -215,7 +215,7 @@ for(let i=digits.length-1; i>0; i--) {
 	
    // // second method	
    // if(++digits[i] == 10) {
-	
+      //     digits[i] = 0;	
 	
 
 12--  // which two elements make the target  
