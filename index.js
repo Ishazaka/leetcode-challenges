@@ -218,6 +218,7 @@ for(let i=digits.length-1; i>0; i--) {
     //     if (!i) digits.unshift(1)	
          // } else break; 	
 	    }
+	    return digits
 	
 
 12--  // which two elements make the target  
