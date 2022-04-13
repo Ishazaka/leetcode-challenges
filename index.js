@@ -220,7 +220,7 @@ for(let i=digits.length-1; i>0; i--) {
 	    }
 	    return digits
 	};
-	
+  console.log( plusOne([1,2,3]));	
 	
 	
 
