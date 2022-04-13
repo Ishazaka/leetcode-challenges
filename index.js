@@ -217,7 +217,7 @@ for(let i=digits.length-1; i>0; i--) {
    // if(++digits[i] == 10) {
      //     digits[i] = 0;	
     //     if (!i) digits.unshift(1)	
-	
+         // } else break; 	
 	
 	
 
