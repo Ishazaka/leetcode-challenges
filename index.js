@@ -211,14 +211,13 @@ for(let i=digits.length-1; i>0; i--) {
   return digits	
   }else{
   digits[i] = 0;	
-  }	
-	
+  }		
    // // second method	
    // if(++digits[i] == 10) {
      //     digits[i] = 0;	
     //     if (!i) digits.unshift(1)	
          // } else break; 	
-	
+	    }
 	
 
 12--  // which two elements make the target  
