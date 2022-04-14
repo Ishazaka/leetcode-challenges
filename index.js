@@ -244,3 +244,5 @@ console.log( twoSum([2,7,11,15], 9))
 
 13--  
 // // Create a function that will take a HEX number and returns the binary equivalent (as a string).
+// // toBinary(0xFF) ➞ "11111111"
+// // toBinary(0xAA) ➞ "10101010"
