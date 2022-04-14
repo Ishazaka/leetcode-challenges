@@ -251,3 +251,4 @@ console.log( twoSum([2,7,11,15], 9))
 function toBinary(num) {
 	return num.toString(2)
 }
+console.log(toBinary(0xFF));
