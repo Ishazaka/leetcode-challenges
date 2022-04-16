@@ -252,3 +252,6 @@ function toBinary(num) {
 	return num.toString(2)
 }
 console.log(toBinary(0xFF));
+
+
+14--  // // Given a number, return an array containing the two halves of the number. If the number is odd, make the rightmost number higher.
