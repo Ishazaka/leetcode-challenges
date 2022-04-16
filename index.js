@@ -260,3 +260,6 @@ console.log(toBinary(0xFF));
 // numberSplit(-9) ➞ [-5, -4]
 
  // my answer
+function numberSplit(n) {
+	let nn = n/2;
+		let arr= [];
