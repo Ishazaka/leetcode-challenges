@@ -267,3 +267,6 @@ function numberSplit(n) {
 	let ans2 = Math.ceil(nn);
 	arr.push(ans1);
 	arr.push(ans2);
+	  return arr;
+	
+ }
