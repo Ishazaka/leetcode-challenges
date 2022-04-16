@@ -258,3 +258,5 @@ console.log(toBinary(0xFF));
  // numberSplit(10) ➞ [5, 5]
  // numberSplit(11) ➞ [5, 6]
 // numberSplit(-9) ➞ [-5, -4]
+
+ // my answer
