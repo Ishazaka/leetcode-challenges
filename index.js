@@ -262,6 +262,8 @@ console.log(toBinary(0xFF));
  // my answer
 function numberSplit(n) {
 	let nn = n/2;
-		let arr= [];
+	let arr= [];
 	let ans1 = Math.floor(nn);
 	let ans2 = Math.ceil(nn);
+	arr.push(ans1);
+	arr.push(ans2);
