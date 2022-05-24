@@ -290,3 +290,5 @@ console.log("12) ", result);
 
 17--  // check if an object is an array or not
 var arrayList = [1, 2, 3];
+
+console.log(Array.isArray(arrayList));
