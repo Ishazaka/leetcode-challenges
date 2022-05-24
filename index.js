@@ -270,3 +270,7 @@ function numberSplit(n) {
 	  return arr;
 	
  }
+
+
+15--   // reverse each word in the sentence
+// Guide! Javascript this to Welcome
