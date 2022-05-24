@@ -279,3 +279,7 @@ var string = "Welcome to this Javascript Guide!";
 
 let res = string.split(" ").reverse().join(" ");
 console.log("7)", res);
+
+
+16 --  // reverse each char in the sentence
+// Output becomes !ediuG tpircsavaJ siht ot emocleW
