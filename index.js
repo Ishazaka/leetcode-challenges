@@ -276,3 +276,6 @@ function numberSplit(n) {
 // Guide! Javascript this to Welcome
 
 var string = "Welcome to this Javascript Guide!";
+
+let res = string.split(" ").reverse().join(" ");
+console.log("7)", res);
