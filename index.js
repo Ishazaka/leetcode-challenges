@@ -283,3 +283,6 @@ console.log("7)", res);
 
 16 --  // reverse each char in the sentence
 // Output becomes !ediuG tpircsavaJ siht ot emocleW
+
+let result = string.split("").reverse().join("");
+console.log("12) ", result);
