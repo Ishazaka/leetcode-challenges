@@ -286,3 +286,7 @@ console.log("7)", res);
 
 let result = string.split("").reverse().join("");
 console.log("12) ", result);
+
+
+17--  // check if an object is an array or not
+var arrayList = [1, 2, 3];
