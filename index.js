@@ -274,3 +274,5 @@ function numberSplit(n) {
 
 15--   // reverse each word in the sentence
 // Guide! Javascript this to Welcome
+
+var string = "Welcome to this Javascript Guide!";
