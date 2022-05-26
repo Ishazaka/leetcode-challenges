@@ -298,6 +298,6 @@ console.log(Array.isArray(arrayList));
 
 let ch = Math.random().toString(36).substring(3, 8)
 
-
+console.log(ch)
 
 
