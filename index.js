@@ -296,6 +296,8 @@ console.log(Array.isArray(arrayList));
 
 18--  // generate random string 5 elements
 
+let ch = Math.random().toString(36).substring(3, 8)
+
 
 
 
