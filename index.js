@@ -292,3 +292,10 @@ console.log("12) ", result);
 var arrayList = [1, 2, 3];
 
 console.log(Array.isArray(arrayList));
+
+
+18--  // generate random string 5 elements
+
+
+
+
