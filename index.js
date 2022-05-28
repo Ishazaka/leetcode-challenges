@@ -308,3 +308,5 @@ let str = stg.toLowerCase();
 
 let z = str.split("red").join("blue");
 console.log(z);
+
+// second method with regex
