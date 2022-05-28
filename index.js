@@ -305,3 +305,6 @@ console.log(ch)
 // convert red into blue
 var stg = "Mr Red has a red house and a red car";
 let str = stg.toLowerCase();
+
+let z = str.split("red").join("blue");
+console.log(z);
