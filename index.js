@@ -303,4 +303,5 @@ console.log(ch)
 
 // Replace All Occurrences of a String
 // convert red into blue
-
+var stg = "Mr Red has a red house and a red car";
+let str = stg.toLowerCase();
