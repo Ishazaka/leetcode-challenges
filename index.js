@@ -301,3 +301,6 @@ let ch = Math.random().toString(36).substring(3, 8)
 console.log(ch)
 
 
+// Replace All Occurrences of a String
+// convert red into blue
+
