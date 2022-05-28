@@ -310,3 +310,5 @@ let z = str.split("red").join("blue");
 console.log(z);
 
 // second method with regex
+var st = "Mr Red has a red house and a red car";
+
