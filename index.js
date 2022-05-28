@@ -314,4 +314,4 @@ var st = "Mr Red has a red house and a red car";
 let reg = /red/gi;
 
 let xt = st.replace(reg, "blue");
-
+console.log(xt);
