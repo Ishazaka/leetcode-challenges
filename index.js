@@ -324,3 +324,5 @@ var java = "javascript is a fun language";
 function vowel(str) {
  let vowels = ["a", "e", "i", "o", "u"];
   let count = 0;
+
+	 for (let i = 0; i < str.length; i++) {
