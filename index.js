@@ -321,3 +321,4 @@ console.log(xt);
 var java = "javascript is a fun language";
 
 
+function vowel(str) {
