@@ -330,3 +330,5 @@ function vowel(str) {
     count++;
    }
   }
+  return count;
+}
