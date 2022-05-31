@@ -332,3 +332,4 @@ function vowel(str) {
   }
   return count;
 }
+console.log(vowel(java));
