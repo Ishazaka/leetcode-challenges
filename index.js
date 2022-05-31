@@ -315,3 +315,9 @@ let reg = /red/gi;
 
 let xt = st.replace(reg, "blue");
 console.log(xt);
+
+
+// Count the Number of Vowels in a String
+
+
+
