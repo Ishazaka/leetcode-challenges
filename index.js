@@ -318,6 +318,6 @@ console.log(xt);
 
 
 // Count the Number of Vowels in a String
-
+var java = "javascript is a fun language";
 
 
