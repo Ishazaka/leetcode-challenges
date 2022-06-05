@@ -339,3 +339,4 @@ var new1 = "java";
 var new2 = "script";
 
 function notfirst(first, second) {
+ let fir = first.substring(1, first.length);
