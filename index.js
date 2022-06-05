@@ -301,7 +301,7 @@ let ch = Math.random().toString(36).substring(3, 8)
 console.log(ch)
 
 
-// Replace All Occurrences of a String
+19--  // Replace All Occurrences of a String
 // convert red into blue
 var stg = "Mr Red has a red house and a red car";
 let str = stg.toLowerCase();
@@ -309,7 +309,7 @@ let str = stg.toLowerCase();
 let z = str.split("red").join("blue");
 console.log(z);
 
-// second method with regex
+19-- // second method with regex
 var st = "Mr Red has a red house and a red car";
 let reg = /red/gi;
 
@@ -317,7 +317,7 @@ let xt = st.replace(reg, "blue");
 console.log(xt);
 
 
-// Count the Number of Vowels in a String
+20-- // Count the Number of Vowels in a String
 var java = "javascript is a fun language";
 
 
@@ -334,4 +334,5 @@ function vowel(str) {
 }
 console.log(vowel(java));
 
-
+21-- //write program to concatenate two strings except their first character
+var new1 = "java";
