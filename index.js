@@ -340,3 +340,4 @@ var new2 = "script";
 
 function notfirst(first, second) {
  let fir = first.substring(1, first.length);
+ let sec = second.substring(1, second.length);
