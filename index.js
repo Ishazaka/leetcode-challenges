@@ -336,3 +336,4 @@ console.log(vowel(java));
 
 21-- //write program to concatenate two strings except their first character
 var new1 = "java";
+var new2 = "script";
