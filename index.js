@@ -344,3 +344,12 @@ function notfirst(first, second) {
  return fir + sec;
 }
 console.log(notfirst(new1, new2));
+
+
+//  Write a function which accepts a string argument and returns the count of characters between the first and last character 'X'
+
+// getTheGapX('XeroX');                        
+
+
+
+
