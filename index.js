@@ -361,3 +361,6 @@ function getcount(str) {
  lastInd = str.lastIndexOf("X");
   return firstInd === lastInd ? -1 : lastInd - (firstInd + 1);
 }
+
+console.log(getcount("XabcdX"));
+console.log(getcount("hfsjofska"));
