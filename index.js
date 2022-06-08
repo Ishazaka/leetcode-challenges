@@ -355,5 +355,7 @@ console.log(notfirst(new1, new2));
 
 function getcount(str) {
   if (!str.includes("X")) {
-
+    return -1;
+  }
+  firstInd = str.indexOf("X");
 
