@@ -358,4 +358,6 @@ function getcount(str) {
     return -1;
   }
   firstInd = str.indexOf("X");
-
+ lastInd = str.lastIndexOf("X");
+  return firstInd === lastInd ? -1 : lastInd - (firstInd + 1);
+}
