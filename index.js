@@ -348,7 +348,9 @@ console.log(notfirst(new1, new2));
 
 //  Write a function which accepts a string argument and returns the count of characters between the first and last character 'X'
 
-// getTheGapX('XeroX');                        
+// getTheGapX('XeroX');                                      // 4
+// getTheGapX('Xamarin');                      // -1       (If there is only single character 'X')
+// getTheGapX('JavaScript');                      -1          
 
 
 
