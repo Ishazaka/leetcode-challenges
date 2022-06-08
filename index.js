@@ -353,5 +353,7 @@ console.log(notfirst(new1, new2));
 // getTheGapX('JavaScript');                      -1          
 
 
+function getcount(str) {
+  if (!str.includes("X")) {
 
 
