@@ -364,3 +364,4 @@ function getcount(str) {
 
 console.log(getcount("XabcdX"));
 console.log(getcount("hfsjofska"));
+console.log(getcount("hfsXska"));
