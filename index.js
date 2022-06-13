@@ -373,3 +373,6 @@ console.log(getcount("hfsXska"));
 
 var firstWord = "Mary";
 var secondWord = "Army";
+
+function isana(first, second) {
+  var a = first.toLowerCase();
