@@ -379,3 +379,6 @@ function isana(first, second) {
   var b = second.toLowerCase();
 
   a = a.split("").sort().join("");
+ b = b.split("").sort().join("");
+
+  return a == b;
