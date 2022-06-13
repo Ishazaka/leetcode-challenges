@@ -382,3 +382,5 @@ function isana(first, second) {
  b = b.split("").sort().join("");
 
   return a == b;
+	}
+console.log(isana(firstWord, secondWord));	
