@@ -376,3 +376,6 @@ var secondWord = "Army";
 
 function isana(first, second) {
   var a = first.toLowerCase();
+  var b = second.toLowerCase();
+
+  a = a.split("").sort().join("");
