@@ -371,3 +371,5 @@ console.log(getcount("hfsXska"));
 // For example: Mary is an anagram of Army
 // isAnagram(firstWord, secondWord); // true
 
+var firstWord = "Mary";
+var secondWord = "Army";
