@@ -388,3 +388,8 @@ console.log(isana(firstWord, secondWord));
 
 // how to empty an array
 var arrayList = ["a", "b", "c", "d", "e", "f"];
+
+// first method
+var arrayList = [];
+console.log(arrayList);
+
