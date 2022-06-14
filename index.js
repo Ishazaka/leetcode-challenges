@@ -396,3 +396,8 @@ console.log(arrayList);
 // second method
 arrayList.length = 0;
 console.log(arrayList);
+
+
+// third method
+arrayList.splice(0, arrayList.length);
+console.log(arrayList);
