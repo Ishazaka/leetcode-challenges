@@ -393,3 +393,6 @@ var arrayList = ["a", "b", "c", "d", "e", "f"];
 var arrayList = [];
 console.log(arrayList);
 
+// second method
+arrayList.length = 0;
+console.log(arrayList);
