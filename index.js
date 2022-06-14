@@ -384,3 +384,7 @@ function isana(first, second) {
   return a == b;
 	}
 console.log(isana(firstWord, secondWord));	
+
+
+// how to empty an array
+var arrayList = ["a", "b", "c", "d", "e", "f"];
