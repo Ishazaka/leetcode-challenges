@@ -406,3 +406,6 @@ console.log(arrayList);
  // multiply(5)(6)(3);
 
 // answer => we can create closure to keep the value of a outer function into inner function that making it closure , and it has access to the varibales with in the outer function
+
+function multiply(a) {
+  return function (b) {
