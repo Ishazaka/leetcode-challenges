@@ -401,3 +401,6 @@ console.log(arrayList);
 // third method
 arrayList.splice(0, arrayList.length);
 console.log(arrayList);
+
+ // how to impliment this
+ // multiply(5)(6)(3);
