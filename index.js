@@ -409,3 +409,5 @@ console.log(arrayList);
 
 function multiply(a) {
   return function (b) {
+    return function (c) {
+      return a * b * c;
