@@ -422,3 +422,5 @@ var yo = "hello";
 
 function hel(word) {
   if (word.length % 2 != 0) {
+ let mid = Math.ceil(word.length / 2);
+    console.log(mid);
