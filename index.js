@@ -426,3 +426,5 @@ function hel(word) {
     console.log(mid);
    return word.slice(mid - 2, mid + 1);
   }
+}
+console.log(hel(yo));
