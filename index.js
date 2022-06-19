@@ -431,3 +431,4 @@ console.log(hel(yo));
 
 
 //  search method in string
+ var message = 'The quick brown fox jumped!';
