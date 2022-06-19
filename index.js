@@ -428,3 +428,6 @@ function hel(word) {
   }
 }
 console.log(hel(yo));
+
+
+//  search method in string
