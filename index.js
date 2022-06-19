@@ -433,3 +433,4 @@ console.log(hel(yo));
 //  search method in string
  var message = 'The quick brown fox jumped!';
 console.log(message.search('fox'))
+console.log(message.search('dog'))
