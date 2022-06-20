@@ -442,3 +442,5 @@ console.log(message.search('dog'))
 
 function remov(arr) {
   let newarr = [];
+ for (let i = 0; i < arr.length; i++) {
+    if (!newarr.includes(arr[i])) {
