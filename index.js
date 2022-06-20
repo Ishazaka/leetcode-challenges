@@ -446,6 +446,7 @@ function remov(arr) {
     if (!newarr.includes(arr[i])) {
    newarr.push(arr[i]);
     }
-
+   }
+  return newarr;
 	 
 	 
