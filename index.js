@@ -440,3 +440,5 @@ console.log(message.search('dog'))
 // remove the duplicates in the array
 // [1,2,3,4,2,5,6,4] => [1,2,3,4,5,6]
 
+function remov(arr) {
+  let newarr = [];
