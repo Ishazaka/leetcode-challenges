@@ -454,5 +454,6 @@ console.log(remov([1, 2, 3, 4, 2, 5, 6, 4]));
 // second method
 function removeme(arr) {
   let newarr = [];
-
+  for (let i = 0; i < arr.length; i++) {
+    if (newarr.indexOf(arr[i]) == -1) {
 
