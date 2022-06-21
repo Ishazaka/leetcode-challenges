@@ -459,3 +459,5 @@ function removeme(arr) {
       newarr.push(arr[i]);
     }
   }
+  return newarr;
+}
