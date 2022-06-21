@@ -456,4 +456,6 @@ function removeme(arr) {
   let newarr = [];
   for (let i = 0; i < arr.length; i++) {
     if (newarr.indexOf(arr[i]) == -1) {
-
+      newarr.push(arr[i]);
+    }
+  }
