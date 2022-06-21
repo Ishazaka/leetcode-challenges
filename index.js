@@ -451,3 +451,7 @@ function remov(arr) {
 }
 console.log(remov([1, 2, 3, 4, 2, 5, 6, 4]));	 
 	 
+// second method
+
+
+
