@@ -470,3 +470,6 @@ let thisarr = [
  "hell",
   "hello",
   "yoga",
+"hello",
+  "how",
+  "hello",
