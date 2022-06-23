@@ -473,3 +473,6 @@ let thisarr = [
 "hello",
   "how",
   "hello",
+ "you",
+  "hello",
+];
