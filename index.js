@@ -465,3 +465,5 @@ console.log(removeme([1, 2, 3, 4, 2, 5, 6, 4]));
 
 
 // there are three words of 'hello' give the index of 2nd word 'hello'
+let thisarr = [
+  "yup",
