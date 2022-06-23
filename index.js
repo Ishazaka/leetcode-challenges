@@ -485,3 +485,6 @@ console.log(second);
 
 let third = thisarr.indexOf("hello", second + 1);
 console.log(third);
+
+let last = thisarr.lastIndexOf("hello");
+console.log(last);
