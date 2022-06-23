@@ -479,3 +479,6 @@ let thisarr = [
 
 let first = thisarr.indexOf("hello");
 console.log(first);
+
+let second = thisarr.indexOf("hello", first + 1);
+console.log(second);
