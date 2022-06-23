@@ -476,3 +476,6 @@ let thisarr = [
  "you",
   "hello",
 ];
+
+let first = thisarr.indexOf("hello");
+console.log(first);
