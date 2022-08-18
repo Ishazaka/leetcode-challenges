@@ -27,3 +27,22 @@ function allAboutStrings(str) {
            middleChar =   str.slice(middleStr - 1 , middleStr + 1)
            finalArr.push(middleChar)
        }else{
+  var middleStrr = str.length /2 
+           exactMiddle =  Math.floor(middleStrr)
+           console.log(str[exactMiddle])
+          middleCharr =  str.slice(exactMiddle , exactMiddle + 1)
+          finalArr.push(middleCharr)
+      }
+      if(str.indexOf(str[1]) !== str.lastIndexOf(str[1])){
+               finalArr.push('@ index' + ' '  +  str.indexOf(str[1], 1 + 1))
+      }else{
+        finalArr.push('not found')
+      }
+    }
+return finalArr
+}
+
+
+console.log(allAboutStrings('LASA'))
+console.log(allAboutStrings('Computer'))
+console.log(allAboutStrings('Science'))
