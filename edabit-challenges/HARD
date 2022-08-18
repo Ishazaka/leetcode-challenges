@@ -13,3 +13,17 @@
 
 // allAboutStrings("Science") ➞ [7, "S", "e", "e", "@ index 5"]
 
+
+function allAboutStrings(str) {
+    var finalArr = [];
+	if(str.length >= 3){
+        // lngth = str.length;
+        // frstChar = str.slice(0 , 1)
+        // lastChar = str.slice(-1)
+        // finalArr = [ lngth , frstChar , lastChar];
+        finalArr = [ str.length , str.slice(0 , 1) , str.slice(-1)];
+      if(str.length % 2 == 0){
+             var middleStr = str.length /2 
+           middleChar =   str.slice(middleStr - 1 , middleStr + 1)
+           finalArr.push(middleChar)
+       }else{
