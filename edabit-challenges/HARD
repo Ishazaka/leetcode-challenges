@@ -60,3 +60,28 @@ console.log(allAboutStrings('Science'))
 
 // doubleSwap("128 895 556 788 999", "8", "9")
 // ➞ "129 985 556 799 888"
+
+
+function doubleSwap(str, c1, c2) {
+  // var newArr = [];
+
+  //  var newArr =  str.replaceAll(c1 ,c2)
+  //  var Arr =  str.replaceAll(c2 ,c1)
+
+ let result =  str.split('').map((x) => { if(x === c1){
+  return  x = c2
+ }else if(x === c2){
+ return  x = c1
+ }else{
+  return x
+ } } )
+
+  var strng = result.join('')
+  
+return strng
+
+}
+
+console.log(doubleSwap( "aabbccc", "a", "b"))
+console.log(doubleSwap("random w#rds writt&n h&r&", "#", "&"))
+console.log(doubleSwap("128 895 556 788 999", "8", "9"))
