@@ -85,3 +85,77 @@ return strng
 console.log(doubleSwap( "aabbccc", "a", "b"))
 console.log(doubleSwap("random w#rds writt&n h&r&", "#", "&"))
 console.log(doubleSwap("128 895 556 788 999", "8", "9"))
+
+
+
+// Create a function that returns the total number of boomerangs in an array.
+// countBoomerangs([9, 5, 9, 5, 1, 1, 1]) ➞ 2
+// countBoomerangs([5, 6, 6, 7, 6, 3, 9]) ➞ 1
+// countBoomerangs([4, 4, 4, 9, 9, 9, 9]) ➞ 0
+
+// Be aware that boomerangs can overlap, like so:
+// [1, 7, 1, 7, 1, 7, 1]
+// 5 boomerangs (from left to right): [1, 7, 1], [7, 1, 7], [1, 7, 1], [7, 1, 7], and [1, 7, 1]
+
+
+// function countBoom(arr){
+//    let boom = 0
+//   for(let i = 0; i < arr.length; i++){
+//     if( arr[i] == arr[i + 2] && arr[i] != arr[i + 1])
+//         boom++
+//   }
+//   return boom
+// }
+
+
+// console.log(countBoom([9, 5, 9, 5, 1, 1, 1]));
+// console.log(countBoom([5, 6, 6, 7, 6, 3, 9]));
+// console.log(countBoom([4, 4, 4, 9, 9, 9, 9]));
+// console.log(countBoom([1, 7, 1, 7, 1, 7, 1]));
+
+
+
+
+// Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
+
+// oddishOrEvenish(43) ➞ "Oddish"
+// 4 + 3 = 7
+// 7 % 2 = 1
+// oddishOrEvenish(373) ➞ "Oddish"
+// oddishOrEvenish(4433) ➞ "Evenish"
+// 4 + 4 + 3 + 3 = 14
+// 14 % 2 = 0
+
+
+// function oddOrEven(str){
+//    let res =  str.toString().split('').reduce((acc , cur) => acc + Number(cur), 0)
+//    if( res % 2 == 0){
+//     return 'Evenish'
+//    }else{
+//     return 'Oddish'
+//    }
+// }
+
+
+// console.log(oddOrEven(43))
+// console.log(oddOrEven(373))
+// console.log(oddOrEven(4433))
+
+
+
+// getLength([1, [2, [3, 4]]]) ➞ 4
+// getLength([1, [2, [3, [4, [5, 6]]]]]) ➞ 6
+let lenone = [1, [2, [3, 4]]];
+let lentwo = [1, [2, [3, [4, [5, 6]]]]]
+let lenthree = []
+
+ function getlength(arr){
+  
+   let ar = arr.flat(Infinity)
+   return ar.length
+ }
+
+console.log(getlength(lenone))
+console.log(getlength(lentwo))
+
+
